@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Documentation</title>
+  <!-- קישור ל-CSS של Bootstrap 5.3.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">API Documentation</h1>
+    <p>Below is a list of available API endpoints for this project.</p>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Method</th>
+          <th>URL</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>GET</td>
+          <td>/phones/q1</td>
+          <td>Fetch the first 10 phones sorted by ID in ascending order.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>GET</td>
+          <td>/phones/q2</td>
+          <td>Fetch the top 5 most expensive phones sorted by price in descending order.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>GET</td>
+          <td>/phones/q3</td>
+          <td>Fetch 3 phones with the highest ratings, skipping the first 3 records.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>GET</td>
+          <td>/phones/q4</td>
+          <td>Fetch details of the phone with the name "Mi 10".</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>GET</td>
+          <td>/phones/q5</td>
+          <td>Fetch phones that contain "Adreno" in their GPU specification.</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>GET</td>
+          <td>/phones/q9</td>
+          <td>Get the total count of phones in the collection.</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>GET</td>
+          <td>/phones/q10</td>
+          <td>Get the count of phones that use "Qualcomm" CPUs.</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>GET</td>
+          <td>/phones/q11</td>
+          <td>Fetch 4 phones with a price between 1300 and 2000, sorted by price in ascending order.</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>GET</td>
+          <td>/phones/q12</td>
+          <td>Fetch phones with total scores of 86, 90, or 79.</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>GET</td>
+          <td>/phones/q13</td>
+          <td>Fetch the name and total score of the first 10 phones, sorted by company ID.</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>GET</td>
+          <td>/phones/q14</td>
+          <td>Fetch phones where the battery score is 76 or the company ID is 2, sorted by price in descending order.</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>GET</td>
+          <td>/phones/q15</td>
+          <td>Fetch phones where the battery score is 76 and the company ID is 4.</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>GET</td>
+          <td>/phones/q16</td>
+          <td>Get the count of phones grouped by company ID.</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>GET</td>
+          <td>/phones/q17</td>
+          <td>Get the average price of phones grouped by company ID.</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>GET</td>
+          <td>/phones/q18</td>
+          <td>Get the minimum price of phones grouped by company ID.</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>GET</td>
+          <td>/phones/q19</td>
+          <td>Fetch all phones with company name populated.</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>GET</td>
+          <td>/phones/q20</td>
+          <td>Fetch the top 5 most expensive phones with company country populated.</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>GET</td>
+          <td>/companies</td>
+          <td>Fetch all companies.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-2cB6Zg2gkR0mL6lSKO5IQcOUF5DK8c7eV5C8r2K0wO5Y9dB0TzPMA+8IqE2E4Qwt" crossorigin="anonymous"></script>
+</body>
+
+</html>
